@@ -16,14 +16,14 @@ pytest to identify non-error bugs in your code.
 
 gpa = float(input("Enter GPA: "))
 
-if gpa >=0 and gpa < 4.0:
-    if gpa > 3.8:
+if gpa >=0 and gpa <= 4.0:
+    if gpa >= 3.8:
         result = "Summa Cum Laude"
     elif gpa >= 3.6:
         result = "Magna Cum Laude"
     elif gpa >= 3.4:
         result = "Cum Laude"
-    elif gpa < 1.8:
+    elif gpa <= 1.8:
         result = "Academic Probation"
     else:
         result = "Passing"
