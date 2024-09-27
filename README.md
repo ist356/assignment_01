@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/SWuRbOmc)
 # IST356 Assignment 01 (assignment_01)
 
 ## Meta
@@ -11,7 +12,6 @@ This assignment is more about how to complete an assignment in this course than 
 3. install assignment dependencies using `requirements.txt`
 4. edit your reflection, requred as part of your assignment submission
 5. submit your assignment using git
-TODO ???
 
 ### Assignment Layout
 
@@ -40,11 +40,10 @@ Install the assignemnt python requirements:
 There is some code and tests already working in this assignment. These are sanity checks to ensure VS Code is configured properly.
 
 1. Open **Testing** in the activity bar: Menu => View => Testing
-2. You'll need to install the testing tools. Choose **pytest**
-3. Open the **>** by clicking on it next to **assignment_01**. Keep clicking on **>** until you see **test_sould_pass** in the **test_assignment.py**
-4. Click the Play button `|>` next to **test_should_pass** to execute the test. 
-5. A green check means the test code ran and the test has passed.
-6. A red X means the test code ran but the test has failed. When a test fails you will be given an error message and stack trace with line numbers.
+2. Open the **>** by clicking on it next to **assignment_01**. Keep clicking on **>** until you see **test_sould_pass** in the **test_assignment.py**
+3. Click the Play button `|>` next to **test_should_pass** to execute the test. 
+4. A green check means the test code ran and the test has passed.
+5. A red X means the test code ran but the test has failed. When a test fails you will be given an error message and stack trace with line numbers.
 
 ## Assignment
 
@@ -87,3 +86,18 @@ For a `1.8` input we expect `Academic Probation` but we got `Passing`.
 
 Write the program as per the instructions in `numbers.py` and get the tests to pass in `def test_numbers():` on line 27 of `test_assignment.py`
  
+
+## Grading 
+
+🤖 Beep, Boop. This assignment is bot-graded! When you push your code to GitHub, my graderbot is notified there is something to grade. The bot then takes the following actions:
+
+1. Your assignment repository is cloned from Github
+2. The bot checks your code and commits according to guidelines outlined in `assignment-criteria.json` (it runs tests, checking code correctness, etc.)
+3. The bot reads your `reflection.md` and provides areas for improvement (based on the instructions in the file).
+4. A grade is assigned by the bot. Feedback is generated including justification for the grade given.
+5. The grade and feedback are posted to Blackboard.
+
+You are welcome to review the bot's feedback and improve your submission as often as you like.
+
+**NOTE: ** Consider this an experiment in the future of education. The graderbot is an AI teaching assistant. Like a human grader, it will make mistakes. Please feel free to question the bots' feedback! Do not feel as if you should gamify the bot. Talk to me! Like a person, we must teach it how to do its job effectively. 
+
