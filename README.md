@@ -10,7 +10,7 @@ This assignment is more about how to complete an assignment in this course than 
 1. run and debug code in the VS Code editor
 2. run python tests to verify your code is correct using pytest and the VS Code activity bar
 3. install assignment dependencies using `requirements.txt`
-4. edit your reflection, requred as part of your assignment submission
+4. edit your reflection, required as part of your assignment submission
 5. submit your assignment using git
 
 ### Assignment Layout
@@ -29,7 +29,7 @@ The each assignment will have a common layout.
 
 Before starting this assignment you must:
 
-Install the assignemnt python requirements:
+Install the assignment python requirements:
 
 1. From VS Code, open a terminal: Menu => Terminal => New Terminal
 2. In the terminal, type and enter: `pip install -r requirements.txt`
@@ -40,7 +40,7 @@ Install the assignemnt python requirements:
 There is some code and tests already working in this assignment. These are sanity checks to ensure VS Code is configured properly.
 
 1. Open **Testing** in the activity bar: Menu => View => Testing
-2. Open the **>** by clicking on it next to **assignment_01**. Keep clicking on **>** until you see **test_sould_pass** in the **test_assignment.py**
+2. Open the **>** by clicking on it next to **assignment_01**. Keep clicking on **>** until you see **test_should_pass** in the **test_assignment.py**
 3. Click the Play button `|>` next to **test_should_pass** to execute the test. 
 4. A green check means the test code ran and the test has passed.
 5. A red X means the test code ran but the test has failed. When a test fails you will be given an error message and stack trace with line numbers.
