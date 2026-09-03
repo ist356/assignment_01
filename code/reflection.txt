@@ -1,4 +1,2 @@
 Write your reflection here.
-
-See reflection.md for what makes a good reflection — be specific, use the
-terminology from class, and make it actionable.
+During this assignment I learned a lot about how to push, pull, and committ things to Github. I struggled orginally with making sure my code was updating properly into my repository, but with some practice and rereading instructions I was able to figure it out. I struggled most with working the debugger. I was orginally impatient and did not allow it to complete its debugging, which resulted in an error, but once I allowed it to run-through I was able to see how to properly use the debugger. I think that in the future I am excited to learn more about how to use tests and debuggers, as well as how I can create those test files myself. 
