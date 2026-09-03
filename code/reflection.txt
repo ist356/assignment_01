@@ -1,4 +1,2 @@
 Write your reflection here.
-
-See reflection.md for what makes a good reflection — be specific, use the
-terminology from class, and make it actionable.
+During this assignment I learned a lot about how to push, pull, and commit things to GitHub. I originally struggled with making sure my code was updating properly in my repository, but with some practice and rereading the instructions, I was able to figure it out. I also learned more about using functions to calculate things like tips, totals, and splitting values. One thing I learned was how to properly round numbers in Python, which was important when working with money and making sure the final calculations were accurate. I struggled most with using the debugger because I was originally impatient and did not allow it to finish running, which resulted in an error. Once I allowed it to run through, I was able to better understand how the debugger works and how it can help find problems in my code. In the future, I am excited to learn more about using tests and debuggers and how I can create my own test files to make sure my code is working correctly.
