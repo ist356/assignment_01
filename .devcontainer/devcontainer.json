@@ -3,11 +3,26 @@
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
   "workspaceFolder": "/workspace",
-  "forwardPorts": [28888, 28501, 28000],
+  "forwardPorts": [
+    28888,
+    28501,
+    28000,
+    6080
+  ],
   "portsAttributes": {
-    "28888": { "label": "Jupyter" },
-    "28501": { "label": "Streamlit" },
-    "28000": { "label": "FastAPI" }
+    "28888": {
+      "label": "Jupyter"
+    },
+    "28501": {
+      "label": "Streamlit"
+    },
+    "28000": {
+      "label": "FastAPI"
+    },
+    "6080": {
+      "label": "Desktop (noVNC) - watch Playwright browsers here",
+      "onAutoForward": "notify"
+    }
   },
   "customizations": {
     "vscode": {
